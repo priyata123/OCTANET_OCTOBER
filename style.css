@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    background-color: black;
+}
+.container{
+    border: 1px solid rgb(165, 42, 118);
+    border-radius:26px;
+    box-shadow:0px 3px 15px rgba(113,115,119,0.5);
+}
+.name h1{
+    padding:30px 20px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.notes{
+    padding-right: 50px;
+    text-align: justify;
+    text-align-last: right;
+}
+.notes h2{
+    font-size:50px;
+}
+.notes h1{
+    font-size:50px;
+    padding-right: 260px;
+}
+#img1{
+    text-decoration: none;
+    background-color: rgb(165, 42, 118);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#img2{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.images{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.buttons{
+    margin-top:10px;
+    margin-block: 10px;
+}
+.buttons>a> span>u{
+    color:rgb(165, 42, 118);
+}
+.buttons >a{
+    margin-left: 20px;
+    text-decoration: none;
+}
